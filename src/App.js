@@ -5,12 +5,13 @@ import Welcome from "./components/welcome";
 import Withjsx from "./components/jsx";
 import State from "./components/state";
 import Counter from "./components/counter";
-
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/classClick";
 function App() {
   return (
     <div className="App">
-      <Greet name="SpiderWoman" heroName="Khan" Age="30" />
-      <Welcome name="SpiderWoman" heroName="Khan" Age="30" />
+      {/* <Greet name="SpiderWoman" heroName="Khan" Age="30" /> */}
+      {/* <Welcome name="SpiderWoman" heroName="Khan" Age="30" /> */}
       {/* <Greet name="Captain Bangladesh" heroName="Rahat" Age="25" />
       
       <Greet name="WonderMan" heroName="Joy" Age="10" /> */}
@@ -20,6 +21,8 @@ function App() {
       {/* <Withjsx /> */}
       {/* <State /> */}
       {/* <Counter /> */}
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }

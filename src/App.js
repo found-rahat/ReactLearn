@@ -9,15 +9,17 @@ import Counter from "./components/counter";
 function App() {
   return (
     <div className="App">
-      {/* <Greet name="Captain Bangladesh" heroName="Rahat" Age="25" />
       <Greet name="SpiderWoman" heroName="Khan" Age="30" />
+      <Welcome name="SpiderWoman" heroName="Khan" Age="30" />
+      {/* <Greet name="Captain Bangladesh" heroName="Rahat" Age="25" />
+      
       <Greet name="WonderMan" heroName="Joy" Age="10" /> */}
       {/* <Welcome name="Captain Bangladesh" heroName="Rahat" Age="25" />
-      <Welcome name="SpiderWoman" heroName="Khan" Age="30" />
+      
       <Welcome name="WonderMan" heroName="Joy" Age="10" /> */}
       {/* <Withjsx /> */}
       {/* <State /> */}
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 }

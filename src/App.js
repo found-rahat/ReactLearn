@@ -4,6 +4,7 @@ import Greet from "./components/Greet";
 import Welcome from "./components/welcome";
 import Withjsx from "./components/jsx";
 import State from "./components/state";
+import Counter from "./components/counter";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Welcome name="SpiderWoman" heroName="Khan" Age="30" />
       <Welcome name="WonderMan" heroName="Joy" Age="10" /> */}
       {/* <Withjsx /> */}
-      <State />
+      {/* <State /> */}
+      <Counter />
     </div>
   );
 }

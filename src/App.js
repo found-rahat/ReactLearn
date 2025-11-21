@@ -11,6 +11,7 @@ import EventBind from "./components/EventBind";
 import ParentComponents from "./components/ParentComponents";
 import ConditionalRendering from "./components/ConditionalRendering";
 import NameList from "./components/NameList";
+import KeyIndex from "./components/keyIndex";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponents /> */}
       {/* <ConditionalRendering /> */}
-      <NameList />
+      {/* <NameList /> */}
+      <KeyIndex />
     </div>
   );
 }

@@ -10,6 +10,7 @@ import ClassClick from "./components/classClick";
 import EventBind from "./components/EventBind";
 import ParentComponents from "./components/ParentComponents";
 import ConditionalRendering from "./components/ConditionalRendering";
+import NameList from "./components/NameList";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParentComponents /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <NameList />
     </div>
   );
 }

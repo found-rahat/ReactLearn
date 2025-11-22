@@ -12,6 +12,7 @@ import ParentComponents from "./components/ParentComponents";
 import ConditionalRendering from "./components/ConditionalRendering";
 import NameList from "./components/NameList";
 import KeyIndex from "./components/keyIndex";
+import Stylesheet from "./components/Stylesheet";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <ParentComponents /> */}
       {/* <ConditionalRendering /> */}
       {/* <NameList /> */}
-      <KeyIndex />
+      {/* <KeyIndex /> */}
+      <Stylesheet primary={true} />
     </div>
   );
 }

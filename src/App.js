@@ -13,7 +13,7 @@ import ConditionalRendering from "./components/ConditionalRendering";
 import NameList from "./components/NameList";
 import KeyIndex from "./components/keyIndex";
 import Stylesheet from "./components/Stylesheet";
-
+import Inline from "./components/inline";
 function App() {
   return (
     <div className="App">
@@ -35,7 +35,8 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* <NameList /> */}
       {/* <KeyIndex /> */}
-      <Stylesheet primary={true} />
+      {/* <Stylesheet primary={true} /> */}
+      <Inline />
     </div>
   );
 }

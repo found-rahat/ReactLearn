@@ -14,9 +14,11 @@ import NameList from "./components/NameList";
 import KeyIndex from "./components/keyIndex";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/inline";
+import BasicForm from "./components/BasicForm";
 function App() {
   return (
     <div className="App">
+      <BasicForm />
       {/* <Greet name="SpiderWoman" heroName="Khan" Age="30" /> */}
       {/* <Welcome name="SpiderWoman" heroName="Khan" Age="30" /> */}
       {/* <Greet name="Captain Bangladesh" heroName="Rahat" Age="25" />
@@ -36,7 +38,7 @@ function App() {
       {/* <NameList /> */}
       {/* <KeyIndex /> */}
       {/* <Stylesheet primary={true} /> */}
-      <Inline />
+      {/* <Inline /> */}
     </div>
   );
 }
